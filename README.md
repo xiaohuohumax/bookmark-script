@@ -1,6 +1,6 @@
 # 🔖 bookmark-script 🔖
 
-**实用书签脚本集合**
+**实用书签脚本集合 Bookmarklets**
 
 ## 🔖 书签脚本
 

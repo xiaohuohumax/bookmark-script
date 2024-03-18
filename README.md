@@ -26,6 +26,21 @@ npm run build
 
 本项目基于 **[bookmark-script-builder](https://github.com/xiaohuohumax/bookmark-script-builder)** Cli构建
 
+## 🌳 打包结果目录说明
+
+```text
+dist
+ └── public
+     ├── favorites-network.html   // CDN版可导入书签
+     ├── favorites.html           // 离线版可导入书签
+     └── 常用脚本
+         ├── ....
+         └── 显示当前时间(1.0.0)    // 脚本
+             ├── bookmark-network.txt // CDN版本
+             ├── bookmark.txt         // 离线版本
+             └── console.js           // 控制台版本(CDN引入脚本)
+```
+
 ## 最后
 
 玩的开心 🎉🎉🎉🎉

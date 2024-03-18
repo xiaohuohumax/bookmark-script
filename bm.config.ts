@@ -23,6 +23,7 @@ const htmlFile = path.resolve(__dirname, 'index.html');
 export default defineConfig(() => {
   return {
     banner,
+    outDir: 'dist/public',
     plugins: [
       typescript({
         check: false,
@@ -51,5 +52,6 @@ export default defineConfig(() => {
       optionPrefix: '#',
       folderFileName: 'bmf.txt'
     }),
+    cdn: 'https://cdn.jsdelivr.net/gh/xiaohuohumax/bookmark-script/dist/public/'
   };
 });

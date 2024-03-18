@@ -1,5 +1,5 @@
 local
 node_modules
 
-dist/Private
+dist/local
 bm.config.local.*

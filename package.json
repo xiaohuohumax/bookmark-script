@@ -6,8 +6,8 @@
   "description": "实用书签脚本集合",
   "scripts": {
     "help": "bookmark-script --help",
-    "build": "bookmark-script",
-    "build:local": "bookmark-script -m local",
+    "build": "rimraf dist && bookmark-script",
+    "build:local": "rimraf dist && bookmark-script -m local",
     "lint:fix": "eslint --fix --ext .js,.ts .",
     "changeset": "changeset"
   },
@@ -33,12 +33,13 @@
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@typescript-eslint/typescript-estree": "^7.1.1",
-    "@xiaohuohumax/bookmark-script": "^2.0.6",
+    "@xiaohuohumax/bookmark-script": "^3.0.1",
     "autoprefixer": "^10.4.18",
     "cssnano": "^6.1.0",
     "eslint": "^8.57.0",
     "postcss": "^8.4.35",
     "postcss-import": "^16.0.1",
+    "rimraf": "^5.0.5",
     "rollup-plugin-typescript2": "^0.36.0",
     "tslib": "^2.6.2",
     "typescript": "5.3.x"

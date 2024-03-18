@@ -1,6 +1,6 @@
 {
   "name": "bookmark-script",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "private": true,
   "description": "实用书签脚本集合",

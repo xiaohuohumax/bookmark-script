@@ -2,7 +2,7 @@
  * #name Github仓库信息显示
  * #description 创建时间,修改时间等
  * #icon ../favicon.png
- * #version v1.0.0
+ * #version v1.0.1
  */
 
 import axios from 'axios';
@@ -14,7 +14,7 @@ import { handleDefineError } from '#/utils/error';
 const stateApi = 'https://api.github.com/repos';
 
 const script = BMScript.init({
-  match: [/https?:\/\/github.com\/\w+\/[^/]+$/ig],
+  match: [/https?:\/\/github.com\/[\w-]+\/[^/]+$/ig],
   unmatchMsg: '请到仓库页再试试 <br/>例如: https://github.com/:user/:repos'
 });
 

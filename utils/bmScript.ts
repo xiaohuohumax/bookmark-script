@@ -7,9 +7,29 @@ import { ScriptNotFinishedError, LocationUnmatchError } from './error';
  * 脚本配置
  */
 export interface BMScriptOptions {
+  /**
+   * 网址匹配规则
+   * 
+   * @default [/.*\/i]
+   */
   match?: RegExp[]
+  /**
+   * 未匹配网址提示信息
+   * 
+   * @default '请到目标网页再试试!!!'
+   */
   unmatchMsg: string
+  /**
+   * 是否打印脚本信息
+   * 
+   * @default true
+   */
   showMeta?: boolean
+  /**
+   * 当脚本未执行完时是否提示用户
+   * 
+   * @default true
+   */
   leaveAlert?: boolean
 }
 

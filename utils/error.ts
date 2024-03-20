@@ -1,4 +1,3 @@
-
 import notify from './notify';
 /**
  * 基础异常

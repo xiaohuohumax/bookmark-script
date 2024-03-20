@@ -1,5 +1,4 @@
-local
 node_modules
 
-dist/local
-bm.config.local.*
+local
+bm.config.local.ts

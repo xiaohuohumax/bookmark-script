@@ -1,8 +1,9 @@
 /**
-* 显示当前时间 1.0.0
-* 
-* Copyright (c) 2020-present xiaohuohumax
-* Power by bookmark-script 1.0.0
-* @license MIT
-*/
-javascript:!function()%7B%22use%20strict%22%3Bvar%20o%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxiaohuohumax%2Fbookmark-script%2Fdist%2Fpublic%2F%25E5%25B8%25B8%25E7%2594%25A8%25E8%2584%259A%25E6%259C%25AC%2F%25E6%2598%25BE%25E7%25A4%25BA%25E5%25BD%2593%25E5%2589%258D%25E6%2597%25B6%25E9%2597%25B4(1.0.0)%2Fconsole.js%22%2Cn%3D%22%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4(1.0.0)%22%3Bconst%20t%3Ddocument.createElement(%22script%22)%3Bt.src%3Do%2Ct.onerror%3Dfunction()%7Balert(%60Bookmarklet%20%24%7Bn%7D%20Error%20!!!%5Cn%20%201.%20Content%20Security%20Policy%5Cn%20%202.%20Network%20Error%5CnYou%20can%20copy%20and%20paste%20the%20content%20of%3A%5Cn%22%24%7Bo%7D%22%5Cninto%20your%20console%20instead(link%20is%20in%20console%20already)%60)%2Cconsole.log(o)%7D%2Cdocument.head.appendChild(t)%7D()%3B%0Avoid(0);
+ * 显示当前时间 1.0.0
+ * [description]
+ * Copyright (c) 2020-present xiaohuohumax
+ * Create time 2024/3/21 01:59:20
+ * Power by bookmark-script 1.2.0
+ * @license MIT
+ */
+javascript:!function()%7B%22use%20strict%22%3Bconst%20t%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxiaohuohumax%2Fbookmark-script%2Fdist%2Fpublic%2F%25E5%25B8%25B8%25E7%2594%25A8%25E8%2584%259A%25E6%259C%25AC%2F%25E6%2598%25BE%25E7%25A4%25BA%25E5%25BD%2593%25E5%2589%258D%25E6%2597%25B6%25E9%2597%25B4(1.0.0)%2Fconsole.js%22%2Cn%3D%22%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4(1.0.0)%22%3B(async%20function(t%2Cn)%7Bconst%20o%3Dawait%20Promise.race(%5Bfetch(t)%2Cnew%20Promise(((t%2Co)%3D%3EsetTimeout((()%3D%3Eo(%22%22))%2C1e3*n)))%5D)%3Bif(!o.ok)throw%20new%20Error(o.statusText)%3Breturn%20o.text()%7D)(t%2C5).then((function(t)%7Bconst%20n%3Ddocument.createElement(%22script%22)%3Bn.innerHTML%3Dt%2Cdocument.body.appendChild(n)%7D)).catch((function()%7Balert(%60Bookmarklet%20%24%7Bn%7D%20Error%20!!!%5Cn%201.%20Content%20Security%20Policy%5Cn%202.%20Network%20Error%5CnYou%20can%20copy%20and%20paste%20the%20content%20of%3A%5Cn%22%24%7Bt%7D%22%5Cninto%20your%20console%20instead(link%20is%20in%20console%20already)%60)%2Cconsole.log(t)%7D))%7D()%3B%0Avoid(0);

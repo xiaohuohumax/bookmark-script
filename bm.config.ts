@@ -8,7 +8,6 @@ const banner = `/**
  * [name] [version]
  * [description]
  * Copyright (c) 2020-present ${author}
- * Create time [time]
  * Power by ${name} ${version}
  * @license MIT
  */`;

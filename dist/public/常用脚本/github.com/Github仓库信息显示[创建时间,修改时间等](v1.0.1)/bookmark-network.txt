@@ -2,8 +2,7 @@
  * Github仓库信息显示 v1.0.1
  * 创建时间,修改时间等
  * Copyright (c) 2020-present xiaohuohumax
- * Create time 2024/3/21 01:59:20
- * Power by bookmark-script 1.2.0
+ * Power by bookmark-script 1.2.1
  * @license MIT
  */
 javascript:!function()%7B%22use%20strict%22%3Bconst%20t%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxiaohuohumax%2Fbookmark-script%2Fdist%2Fpublic%2F%25E5%25B8%25B8%25E7%2594%25A8%25E8%2584%259A%25E6%259C%25AC%2Fgithub.com%2FGithub%25E4%25BB%2593%25E5%25BA%2593%25E4%25BF%25A1%25E6%2581%25AF%25E6%2598%25BE%25E7%25A4%25BA%5B%25E5%2588%259B%25E5%25BB%25BA%25E6%2597%25B6%25E9%2597%25B4%2C%25E4%25BF%25AE%25E6%2594%25B9%25E6%2597%25B6%25E9%2597%25B4%25E7%25AD%2589%5D(v1.0.1)%2Fconsole.js%22%2Cn%3D%22Github%E4%BB%93%E5%BA%93%E4%BF%A1%E6%81%AF%E6%98%BE%E7%A4%BA%5B%E5%88%9B%E5%BB%BA%E6%97%B6%E9%97%B4%2C%E4%BF%AE%E6%94%B9%E6%97%B6%E9%97%B4%E7%AD%89%5D(v1.0.1)%22%3B(async%20function(t%2Cn)%7Bconst%20o%3Dawait%20Promise.race(%5Bfetch(t)%2Cnew%20Promise(((t%2Co)%3D%3EsetTimeout((()%3D%3Eo(%22%22))%2C1e3*n)))%5D)%3Bif(!o.ok)throw%20new%20Error(o.statusText)%3Breturn%20o.text()%7D)(t%2C5).then((function(t)%7Bconst%20n%3Ddocument.createElement(%22script%22)%3Bn.innerHTML%3Dt%2Cdocument.body.appendChild(n)%7D)).catch((function()%7Balert(%60Bookmarklet%20%24%7Bn%7D%20Error%20!!!%5Cn%201.%20Content%20Security%20Policy%5Cn%202.%20Network%20Error%5CnYou%20can%20copy%20and%20paste%20the%20content%20of%3A%5Cn%22%24%7Bt%7D%22%5Cninto%20your%20console%20instead(link%20is%20in%20console%20already)%60)%2Cconsole.log(t)%7D))%7D()%3B%0Avoid(0);

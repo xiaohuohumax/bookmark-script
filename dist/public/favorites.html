@@ -14,12 +14,12 @@
   }
 
   dl>dt:not(:has(h3[personal_toolbar_folder="true"])) {
-    margin-left: 1.25em;
-    padding: .25em 0;
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+    padding: .25em 1.5em;
   }
 
   dt>h3 {
-    padding-bottom: .25em;
+    padding-bottom: .5em;
   }
 
   a {
@@ -34,8 +34,8 @@
     vertical-align: middle;
   }
 </style>
-<TITLE>Bookmarklet</TITLE>
-<H1>Bookmarklet</H1>
+<TITLE>Bookmark Script</TITLE>
+<H1>Bookmark Script</H1>
 <DL><p>
     <DT><H3 PERSONAL_TOOLBAR_FOLDER="true"></H3>
     <DL><p>
@@ -69,6 +69,7 @@
         </DL><p>
     </DL><p>
 </DL><p>
+
 <script>
   const links = document.querySelectorAll("dt > a");
   links.forEach((element) => {

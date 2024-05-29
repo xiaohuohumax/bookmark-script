@@ -1,6 +1,6 @@
 {
   "name": "bookmark-script",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "private": true,
   "description": "实用书签脚本集合 Bookmarklet",
@@ -29,7 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@typescript-eslint/typescript-estree": "^7.1.1",
-    "@xiaohuohumax/bookmark-script": "^4.0.0",
+    "@xiaohuohumax/bookmark-script": "^4.0.2",
     "eslint": "^8.57.0",
     "rimraf": "^5.0.5"
   },

@@ -52,13 +52,16 @@ export class DBlobUrlTask extends DTask {
   }
 
   async run() {
-    const { data } = await axios({
-      method: this.method,
-      url: this.url,
-      responseType: 'blob'
-    });
-    const url = this.url.split('/').pop();
-    url && this.saveFile(new DFile(url, data));
+    try {
+      const { data } = await axios({
+        method: this.method,
+        url: this.url,
+        responseType: 'blob'
+      });
+      const url = this.url.split('/').pop();
+      url && this.saveFile(new DFile(url, data));
+    } catch (_) {
+    }
   }
 }
 

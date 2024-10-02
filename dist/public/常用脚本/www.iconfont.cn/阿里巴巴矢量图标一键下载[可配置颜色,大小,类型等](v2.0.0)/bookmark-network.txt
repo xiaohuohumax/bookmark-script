@@ -1,8 +1,0 @@
-/**
- * 阿里巴巴矢量图标一键下载 v2.0.0
- * 可配置颜色,大小,类型等
- * Copyright (c) 2020-present xiaohuohumax
- * Power by bookmark-script 1.2.1
- * @license MIT
- */
-javascript:!function()%7B%22use%20strict%22%3Bconst%20n%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxiaohuohumax%2Fbookmark-script%2Fdist%2Fpublic%2F%25E5%25B8%25B8%25E7%2594%25A8%25E8%2584%259A%25E6%259C%25AC%2Fwww.iconfont.cn%2F%25E9%2598%25BF%25E9%2587%258C%25E5%25B7%25B4%25E5%25B7%25B4%25E7%259F%25A2%25E9%2587%258F%25E5%259B%25BE%25E6%25A0%2587%25E4%25B8%2580%25E9%2594%25AE%25E4%25B8%258B%25E8%25BD%25BD%5B%25E5%258F%25AF%25E9%2585%258D%25E7%25BD%25AE%25E9%25A2%259C%25E8%2589%25B2%2C%25E5%25A4%25A7%25E5%25B0%258F%2C%25E7%25B1%25BB%25E5%259E%258B%25E7%25AD%2589%5D(v2.0.0)%2Fconsole.js%22%2Ct%3D%22%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%9F%A2%E9%87%8F%E5%9B%BE%E6%A0%87%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD%5B%E5%8F%AF%E9%85%8D%E7%BD%AE%E9%A2%9C%E8%89%B2%2C%E5%A4%A7%E5%B0%8F%2C%E7%B1%BB%E5%9E%8B%E7%AD%89%5D(v2.0.0)%22%3B(async%20function(n%2Ct)%7Bconst%20o%3Dawait%20Promise.race(%5Bfetch(n)%2Cnew%20Promise(((n%2Co)%3D%3EsetTimeout((()%3D%3Eo(%22%22))%2C1e3*t)))%5D)%3Bif(!o.ok)throw%20new%20Error(o.statusText)%3Breturn%20o.text()%7D)(n%2C5).then((function(n)%7Bconst%20t%3Ddocument.createElement(%22script%22)%3Bt.innerHTML%3Dn%2Cdocument.body.appendChild(t)%7D)).catch((function()%7Balert(%60Bookmarklet%20%24%7Bt%7D%20Error%20!!!%5Cn%201.%20Content%20Security%20Policy%5Cn%202.%20Network%20Error%5CnYou%20can%20copy%20and%20paste%20the%20content%20of%3A%5Cn%22%24%7Bn%7D%22%5Cninto%20your%20console%20instead(link%20is%20in%20console%20already)%60)%2Cconsole.log(n)%7D))%7D()%3B%0Avoid(0);

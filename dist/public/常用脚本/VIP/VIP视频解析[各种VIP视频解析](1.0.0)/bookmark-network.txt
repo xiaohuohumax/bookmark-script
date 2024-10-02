@@ -1,0 +1,8 @@
+/**
+ * VIP视频解析 1.0.0
+ * 各种VIP视频解析
+ * Copyright (c) 2020-present xiaohuohumax
+ * Power by bookmark-script 1.2.1
+ * @license MIT
+ */
+javascript:!function()%7B%22use%20strict%22%3Bconst%20t%3D%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fxiaohuohumax%2Fbookmark-script%2Fdist%2Fpublic%2F%25E5%25B8%25B8%25E7%2594%25A8%25E8%2584%259A%25E6%259C%25AC%2FVIP%2FVIP%25E8%25A7%2586%25E9%25A2%2591%25E8%25A7%25A3%25E6%259E%2590%5B%25E5%2590%2584%25E7%25A7%258DVIP%25E8%25A7%2586%25E9%25A2%2591%25E8%25A7%25A3%25E6%259E%2590%5D(1.0.0)%2Fconsole.js%22%2Cn%3D%22VIP%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%5B%E5%90%84%E7%A7%8DVIP%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90%5D(1.0.0)%22%3B(async%20function(t%2Cn)%7Bconst%20o%3Dawait%20Promise.race(%5Bfetch(t)%2Cnew%20Promise(((t%2Co)%3D%3EsetTimeout((()%3D%3Eo(%22%22))%2C1e3*n)))%5D)%3Bif(!o.ok)throw%20new%20Error(o.statusText)%3Breturn%20o.text()%7D)(t%2C5).then((function(t)%7Bconst%20n%3Ddocument.createElement(%22script%22)%3Bn.innerHTML%3Dt%2Cdocument.body.appendChild(n)%7D)).catch((function()%7Balert(%60Bookmarklet%20%24%7Bn%7D%20Error%20!!!%5Cn%201.%20Content%20Security%20Policy%5Cn%202.%20Network%20Error%5CnYou%20can%20copy%20and%20paste%20the%20content%20of%3A%5Cn%22%24%7Bt%7D%22%5Cninto%20your%20console%20instead(link%20is%20in%20console%20already)%60)%2Cconsole.log(t)%7D))%7D()%3B%0Avoid(0);
